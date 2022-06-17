@@ -1,4 +1,33 @@
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+.hourly-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 13%;
+  margin-inline: 8%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.hourly-box {
+  border-radius: 20px;
+}
+
+.hours-temp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hours-temp h1 {
+  margin-inline: 20px;
 }
 /*# sourceMappingURL=App.css.map */
