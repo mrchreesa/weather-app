@@ -1,11 +1,11 @@
 import { useEffect, useReducer } from "react";
 import "./App.css";
-import Hourly from "./Components/Hourly";
+import Main from "./Main";
 
 function App() {
   return (
     <div className="App">
-      <Hourly />
+      <Main />
     </div>
   );
 }
