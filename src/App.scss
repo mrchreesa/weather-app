@@ -122,13 +122,14 @@ body::-webkit-scrollbar {
 }
 .daily-temp {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   h1 {
     font-size: 1.5em;
   }
   img {
     width: 25%;
+    min-width: 50px;
   }
 }
 @media (max-width: 468px) {
