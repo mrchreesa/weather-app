@@ -30,7 +30,7 @@ export default function Daily({ state }) {
               <img
                 src={iconChange(
                   item.weathercode,
-                  now,
+                  "14",
                   item.sunrise,
                   item.sunset
                 )}

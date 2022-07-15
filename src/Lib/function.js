@@ -19,7 +19,7 @@ const iconChange = (weatherCode, time, sunrise, sunset) => {
     }
 
     case 3: {
-      return cloudy;
+      return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
     }
     case 51:
     case 53:
