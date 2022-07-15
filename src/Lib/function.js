@@ -7,15 +7,15 @@ import rain from "../weather-icons/rain.png";
 import rainShower from "../weather-icons/rain_shower.png";
 import sunny from "../weather-icons/sun_sunny.png";
 
-const iconChange = (weatherCode, time) => {
+const iconChange = (weatherCode, time, sunrise, sunset) => {
   switch (weatherCode) {
     case 0:
     case 1: {
-      return time > "07" && time < "23" ? sunny : moonNight;
+      return time > sunrise && time < sunset ? sunny : moonNight;
     }
 
     case 2: {
-      return time > "07" && time < "23" ? cloudsSun : cloudyMoon;
+      return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
     }
 
     case 3: {

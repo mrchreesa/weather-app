@@ -27,7 +27,15 @@ export default function Daily({ state }) {
           <>
             <div className="daily-temp day">
               {i == 0 ? <h1>Today</h1> : <h1>{item.day}</h1>}
-              <img src={iconChange(item.weathercode, "14")} alt="" />
+              <img
+                src={iconChange(
+                  item.weathercode,
+                  now,
+                  item.sunrise,
+                  item.sunset
+                )}
+                alt=""
+              />
             </div>
             <div className="daily-temp min">
               <h1>L: {item.dailyMin}&#176;</h1>

@@ -23,7 +23,15 @@ export default function Hourly({ state, dispatch }) {
           {state.hourlyTemp.map((item, index) => (
             <div className="hours-temp">
               {index == 0 ? <h1>Now</h1> : <h1>{item.hour}</h1>}
-              <img src={iconChange(item.weathercode, item.hour)} alt="" />
+              <img
+                src={iconChange(
+                  item.weathercode,
+                  now,
+                  state.dailyTemp[0]?.sunrise,
+                  state.dailyTemp[0]?.sunset
+                )}
+                alt=""
+              />
 
               <h1>{item.temp.toString().slice(0, 2)}&#176;</h1>
             </div>

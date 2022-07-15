@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 * {
   font-family: "Helvetica Neue", Helvetica, Arial;
@@ -129,10 +129,13 @@ body::-webkit-scrollbar {
   }
   img {
     width: 25%;
-    min-width: 50px;
+    min-width: 40px;
   }
 }
 @media (max-width: 468px) {
+  .App {
+    height: 100% !important;
+  }
   .main-container {
     height: 100% !important;
   }
@@ -150,13 +153,13 @@ body::-webkit-scrollbar {
   .location-container h1 {
     font-size: 1.3em;
   }
-  // .daily-container {
-  //   width: 100vw;
-  //   .daily-box {
-  //     width: 100vw;
-  //   }
-  // }
-  // .hourly-container {
-  //   width: 100%;
-  // }
-}
+//   .daily-container {
+//     width: 100vw;
+//     .daily-box {
+//       width: 100%;
+//     }
+//   }
+//   .hourly-container {
+//     width: 100%;
+//   }
+// }
