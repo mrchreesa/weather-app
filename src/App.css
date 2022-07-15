@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
 }
 
 * {
@@ -184,15 +184,24 @@ body::-webkit-scrollbar {
 
 .daily-temp img {
   width: 25%;
-  min-width: 50px;
+  min-width: 40px;
 }
 
 @media (max-width: 468px) {
+  .App {
+    height: 100% !important;
+  }
   .main-container {
     height: 100% !important;
   }
+  .daily-box {
+    padding: 50px;
+  }
+  .daily-temp {
+    padding-inline: 30px;
+  }
   .daily-temp h1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .hours-temp {
     padding-top: 10px;
@@ -202,6 +211,9 @@ body::-webkit-scrollbar {
   }
   .location-container h1 {
     font-size: 1.3em;
+  }
+  .hourly-box {
+    width: 80% !important;
   }
 }
 /*# sourceMappingURL=App.css.map */

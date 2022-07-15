@@ -139,11 +139,18 @@ body::-webkit-scrollbar {
   .main-container {
     height: 100% !important;
   }
+  .daily-box {
+    padding: 50px;
+  }
   .daily-temp {
+    padding-inline: 30px;
     h1 {
-      font-size: 1em;
+      font-size: 1.2em;
     }
   }
+  // .hourly-container {
+  //   padding: 20px;
+  // }
   .hours-temp {
     padding-top: 10px;
     h1 {
@@ -153,13 +160,13 @@ body::-webkit-scrollbar {
   .location-container h1 {
     font-size: 1.3em;
   }
-//   .daily-container {
-//     width: 100vw;
-//     .daily-box {
-//       width: 100%;
-//     }
-//   }
-//   .hourly-container {
-//     width: 100%;
-//   }
-// }
+  // .daily-container {
+  //    width: 100vw;
+  //   .daily-box {
+  //     width: 80%;
+  //   }
+  // }
+  .hourly-box {
+    width: 80% !important;
+  }
+}

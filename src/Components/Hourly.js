@@ -17,7 +17,11 @@ export default function Hourly({ state, dispatch }) {
             ? "hourly-box"
             : "hourly-box-night"
         }
-        sx={{ maxWidth: { xs: 320, sm: "100%" }, bgcolor: "background.paper" }}
+        sx={{
+          width: "93vw",
+          maxWidth: { xs: 380, sm: "100%" },
+          bgcolor: "background.paper",
+        }}
       >
         <Tabs variant="scrollable" scrollButtons="auto" visibleScrollbar="true">
           {state.hourlyTemp.map((item, index) => (

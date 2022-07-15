@@ -21,7 +21,7 @@ export default function Daily({ state }) {
         }
         display="grid"
         gridTemplateColumns="repeat(3, 1fr)"
-        sx={{ maxWidth: { xs: 320, sm: "100%" }, bgcolor: "background.paper" }}
+        sx={{ maxWidth: { xs: 580, sm: "100%" }, bgcolor: "background.paper" }}
       >
         {dailyTemp?.map((item, i) => (
           <>
