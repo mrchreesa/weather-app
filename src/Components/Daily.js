@@ -15,9 +15,10 @@ export default function Daily({ state }) {
 
       <Box
         className={
-          now > dailyTemp[0]?.sunrise && now < dailyTemp[0]?.sunset
-            ? "daily-box"
-            : "daily-box-night"
+          // now > dailyTemp[0]?.sunrise && now < dailyTemp[0]?.sunset
+          //   ? "daily-box"
+          //   : "daily-box-night"
+          "daily-box-night"
         }
         display="grid"
         gridTemplateColumns="repeat(3, 1fr)"
