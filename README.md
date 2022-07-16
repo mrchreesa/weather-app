@@ -11,10 +11,12 @@
   <img alt="Twitter: mrchreesa" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
+<h4>
     The Weather App was build with React and used useReducer hook for state management.
     The user interface was created with Sass and Material UI. The app fetches data from Weather Forecast API and uses Moment.js to work with time and dates. Day and Night themes are toggled according to the sunset and sunrise times.
+    </h4>
     <br/>
-<div margin-top="40px">
+<div >
 <img width="48%" src="./src/weather-icons/weather-day.jpg" alt="preview page" />
 <img width="48%" src="./src/weather-icons/weather-night.jpg" alt="preview page" />
 </div>
