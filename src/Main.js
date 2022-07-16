@@ -78,10 +78,9 @@ export default function Main() {
   return (
     <div
       className={
-        // now > state.dailyTemp[0]?.sunrise && now < state.dailyTemp[0]?.sunset
-        //   ? "main-container"
-        //   : "main-container-night"
-        "main-container-night"
+        now > state.dailyTemp[0]?.sunrise && now < state.dailyTemp[0]?.sunset
+          ? "main-container"
+          : "main-container-night"
       }
     >
       {" "}

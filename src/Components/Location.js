@@ -12,8 +12,7 @@ export default function Location({ state }) {
       <img
         src={iconChange(
           hourlyTemp[0]?.weathercode,
-          // now,
-          "24",
+          now,
           dailyTemp[0]?.sunrise,
           dailyTemp[0]?.sunset
         )}

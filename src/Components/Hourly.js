@@ -13,10 +13,9 @@ export default function Hourly({ state, dispatch }) {
     <div className="hourly-container">
       <Box
         className={
-          // now > state.dailyTemp[0]?.sunrise && now < state.dailyTemp[0]?.sunset
-          //   ? "hourly-box"
-          //   : "hourly-box-night"
-          "hourly-box-night"
+          now > state.dailyTemp[0]?.sunrise && now < state.dailyTemp[0]?.sunset
+            ? "hourly-box"
+            : "hourly-box-night"
         }
         sx={{
           width: "93vw",

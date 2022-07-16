@@ -11,18 +11,15 @@ const iconChange = (weatherCode, time, sunrise, sunset) => {
   switch (weatherCode) {
     case 0:
     case 1: {
-      // return time > sunrise && time < sunset ? sunny : moonNight;
-      return moonNight;
+      return time > sunrise && time < sunset ? sunny : moonNight;
     }
 
     case 2: {
-      // return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
-      return cloudyMoon;
+      return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
     }
 
     case 3: {
-      // return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
-      return cloudyMoon;
+      return time > sunrise && time < sunset ? cloudsSun : cloudyMoon;
     }
     case 51:
     case 53:
