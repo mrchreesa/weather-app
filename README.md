@@ -15,8 +15,8 @@
     The user interface was created with Sass and Material UI. The app fetches data from Weather Forecast API and uses Moment.js to work with time and dates. Day and Night themes are toggled according to the sunset and sunrise times.
     <br/>
 <div>
-<img width="45%" src="./src/weather-icons/weather-day.jpg" alt="preview page" />
-<img width="45%" src="./src/weather-icons/weather-night.jpg" alt="preview page" />
+<img width="50%" src="./src/weather-icons/weather-day.jpg" alt="preview page" />
+<img width="50%" src="./src/weather-icons/weather-night.jpg" alt="preview page" />
 </div>
 <h1 align="center"> 🏠 (https://dancing-sopapillas-af9c8b.netlify.app/) </h1>
 </br>
