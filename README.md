@@ -14,9 +14,9 @@
     The Weather App was build with React and used useReducer hook for state management.
     The user interface was created with Sass and Material UI. The app fetches data from Weather Forecast API and uses Moment.js to work with time and dates. Day and Night themes are toggled according to the sunset and sunrise times.
     <br/>
-<div>
-<img width="50%" src="./src/weather-icons/weather-day.jpg" alt="preview page" />
-<img width="50%" src="./src/weather-icons/weather-night.jpg" alt="preview page" />
+<div padding-top="20px">
+<img width="48%" src="./src/weather-icons/weather-day.jpg" alt="preview page" />
+<img width="48%" src="./src/weather-icons/weather-night.jpg" alt="preview page" />
 </div>
 <h1 align="center"> 🏠 (https://dancing-sopapillas-af9c8b.netlify.app/) </h1>
 </br>
